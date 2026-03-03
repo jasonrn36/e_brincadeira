@@ -26,10 +26,15 @@ body {
     display: block;
     max-width: 680px;
     margin: 0 auto;
+    padding: 16px;
 }
 
-.container, h1,h2 {
+.container, h1 {
     text-align: center;
+}
+
+.title2 {
+    margin-bottom: 16px;
 }
 
 p {
@@ -37,7 +42,10 @@ p {
 }
 
 .fotoJason {
-    max-width: 480px
+    max-width: 640px;
+    border-radius: 10px;
+    pading: 8px;
+    margin-bottom: 8px;
 }
     </style>
 
@@ -52,10 +60,10 @@ p {
 </header>
     <body>
         <div class="container">
-            <h2>Aqui começa o site</h2>
+            <h2 class="title2">Aqui começa o site</h2>
             <img class="fotoJason" src="./img/capa_youtb 03.jpg" alt="Foto do Mestre Jason Developer">
 
-        <p class="texto">Essa é a parte mais legal é que do nada me veio a vontade de fazer uma página assim.</p>
+        <p class="texto">Testando todas as possibilidades que o javascript pode oferecer. gosto sempre de me atualizar sobre a linguagem javscript, estou aprendendo a cada dia e sinto que nunca serei capaz de dizer que já sei ou já aprendi tudo sobre o javascript.</p>
         </div>
 
     </body>
